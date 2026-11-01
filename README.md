@@ -16,13 +16,13 @@ Anything you paste into a chat is stored in the conversation history. Keys that 
 Paste this into Claude Code or Codex:
 
 ```
-Install the safety skills (secure-key-entry, save-points, undo, safe-delete) from https://github.com/josephtandle/secure-key-entry. Clone it (or pull the latest if it is already cloned) into ~/.secure-key-entry, then run scripts/install.sh on Mac, or scripts/install.ps1 with PowerShell on Windows. Confirm all four skills are in ~/.claude/skills and ~/.agents/skills.
+Install the safety skills (secure-key-entry, save-points, undo, safe-delete) from https://github.com/joecheofficial/secure-key-entry. Clone it (or pull the latest if it is already cloned) into ~/.secure-key-entry, then run scripts/install.sh on Mac, or scripts/install.ps1 with PowerShell on Windows. Confirm all four skills are in ~/.claude/skills and ~/.agents/skills.
 ```
 
 Or run it yourself:
 
-- Mac: `git clone https://github.com/josephtandle/secure-key-entry ~/.secure-key-entry && bash ~/.secure-key-entry/scripts/install.sh`
-- Windows (PowerShell): `git clone https://github.com/josephtandle/secure-key-entry $HOME\.secure-key-entry; powershell -ExecutionPolicy Bypass -File $HOME\.secure-key-entry\scripts\install.ps1`
+- Mac: `git clone https://github.com/joecheofficial/secure-key-entry ~/.secure-key-entry && bash ~/.secure-key-entry/scripts/install.sh`
+- Windows (PowerShell): `git clone https://github.com/joecheofficial/secure-key-entry $HOME\.secure-key-entry; powershell -ExecutionPolicy Bypass -File $HOME\.secure-key-entry\scripts\install.ps1`
 
 To update to the latest version later, run `git -C ~/.secure-key-entry pull` and the install script again.
 
